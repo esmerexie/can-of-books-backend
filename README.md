@@ -2,6 +2,10 @@
 
 Author: Erin Ranta, Austin Limanek, and Rexie Esmeralda Version: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
+## Sites
+
+https://canofbooksear.netlify.app
+
 ## Team agreement
 
 Logistical
