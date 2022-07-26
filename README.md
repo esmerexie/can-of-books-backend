@@ -2,7 +2,8 @@
 
 Author: Erin Ranta, Austin Limanek, and Rexie Esmeralda Version: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
-<<<<<<< HEAD
+
+
 Overview
 An API providing tracking and reccomending favorite books.
 
@@ -42,6 +43,15 @@ Getting Started
 
 ## Architecture
 
+
+## Overview
+
+An application providing the user with details on books...
+Getting Started
+
+## Architecture
+
+
 ## Change Log
 
 Name of feature: Set up Repositories, storage, & Book Component
@@ -62,7 +72,11 @@ Start time: :00 PM
 Finish time: :00 PM
 Actual time needed to complete:  hours
 
+
 Credit and Collaborations
+
+## Credit and Collaborations
+
 
 ## Team agreement
 

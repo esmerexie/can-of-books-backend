@@ -49,4 +49,8 @@ app.listen(PORT, () => console.log(`listening on ${PORT}`));
 // db.on('error', console.error.bind(console, 'connection error:'));
 // db.once('open', function() {
 //   console.log('Mongoose is connected');
+
 // });
+
+// });
+
