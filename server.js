@@ -17,7 +17,7 @@ app.get('/test', (request, response) => {
 
 })
 
-app.get('/book', (request, response) => {
+app.get('/books', (request, response) => {
 
   let {title, description, status} = request.query;
   let queryObject = {};
