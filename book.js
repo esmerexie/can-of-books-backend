@@ -2,6 +2,8 @@
 
 const mongoose = require('mongoose');
 
+mongoose.connect(process.env.DATABASE_URL);
+
 let bookSchema = new mongoose.Schema({
   title: String,
   description: String,
