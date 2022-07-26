@@ -1,15 +1,14 @@
-'use strict'
+'use strict';
 
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.DATABASE_URL);
+let booksSchema = new mongoose.Schema({
+    title: String,
+    description: String,
+    status: String
 
-let bookSchema = new mongoose.Schema({
-  title: String,
-  description: String,
-  status: String
 });
 
-const Book = mongoose.model('book', bookSchema);
+const Book = mongoose.model('book', booksSchema)
 
 module.exports = Book;
