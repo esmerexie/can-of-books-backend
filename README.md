@@ -18,13 +18,13 @@ Finish time: 9:00 PM
 Actual time needed to complete: 3 hours
 
 Name of feature: Storage
-Estimate of time needed to complete:  hours
-Start time: :00 PM
-Finish time: :00 PM
-Actual time needed to complete:  hours
+Estimate of time needed to complete: 2 hours
+Start time: 9:30 PM
+Finish time: 12:00 PM
+Actual time needed to complete: 2.5 hours
 
 Name of feature: Book Component
-Estimate of time needed to complete:  hours
+Estimate of time needed to complete: 1 hours
 Start time: :00 PM
 Finish time: :00 PM
 Actual time needed to complete:  hours
