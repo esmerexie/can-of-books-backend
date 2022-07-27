@@ -84,7 +84,10 @@ app.put('/book/:id', async (request, response, next) => {
       request.body,
       { returnDocument: 'after'}
     );
-    response.send(book);
+    Book.find()
+    .then(bookData => {
+      response.send(bookData);
+    });
   }
   }
   catch (e){
