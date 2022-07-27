@@ -48,14 +48,14 @@ Actual time needed to complete: 2 hours
 Name of feature: Addition of books by user
 Estimate of time needed to complete: 1 hours
 Start time:  5:30 PM
-Finish time: :00 PM
-Actual time needed to complete:  hours
+Finish time: 9:00 PM
+Actual time needed to complete: 3.5 hours
 
 Name of feature: Delete books
-Estimate of time needed to complete:  hours
-Start time: :30 PM
-Finish time: :00 PM
-Actual time needed to complete:  hours
+Estimate of time needed to complete: 1 hours
+Start time: 9:30 PM
+Finish time: 11:00 PM
+Actual time needed to complete: 1.5 hours
 
 ### Logistical
 
