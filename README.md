@@ -5,6 +5,7 @@ Author: Erin Ranta, Austin Limanek, and Rexie Esmeralda Version: 1.0.0 (incremen
 ## Sites
 
 https://canofbooksear.netlify.app
+https://can-of-books-backened.herokuapp.com
 
 ## Team agreement
 
@@ -40,17 +41,17 @@ Day 2: July 26, 2022:
 
 Name of feature: Book Component
 Estimate of time needed to complete: 1 hours
-Start time: :00 PM
+Start time: 2:00 PM
+Finish time: 5:00 PM
+Actual time needed to complete: 2 hours
+
+Name of feature: Addition of books by user
+Estimate of time needed to complete: 1 hours
+Start time:  5:30 PM
 Finish time: :00 PM
 Actual time needed to complete:  hours
 
-Name of feature:
-Estimate of time needed to complete:  hours
-Start time: :00 PM
-Finish time: :00 PM
-Actual time needed to complete:  hours
-
-Name of feature:
+Name of feature: Delete books
 Estimate of time needed to complete:  hours
 Start time: :30 PM
 Finish time: :00 PM
