@@ -71,6 +71,27 @@ app.delete('/book/:id', async (request, response, next) => {
   }
 })
 
+app.put('/book/:id', async (request, response, next) => {
+  try{
+    let {title, description, status} = request.body;
+  if(!title || !description || !status){
+    next('Bad request')
+  }
+  else{
+    let id = request.params.id;
+    let newBook = await Book.findOneAndReplace(
+      { _id: id },
+      request.body,
+      { returnDocument: 'after'}
+    );
+    response.send(newBook);
+  }
+  }
+  catch (e){
+    next(e);
+  }
+})
+
 app.get('/book/:title/:description', (request, response, next) => {
   console.log(typeof request.params.title);
   console.log(request.params.description);

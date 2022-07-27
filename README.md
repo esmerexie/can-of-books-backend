@@ -57,6 +57,20 @@ Start time: 9:30 PM
 Finish time: 11:00 PM
 Actual time needed to complete: 1.5 hours
 
+Day 3: July 27, 2022:
+
+Name of feature: Put functionality backend
+Estimate of time needed to complete: 1 hours
+Start time: 12:45 PM
+Finish time: 1:10 PM
+Actual time needed to complete: 5/12 hours
+
+Name of feature: Put functionality frontend
+Estimate of time needed to complete: 1 hours
+Start time: 1:30 PM
+Finish time: :00 PM
+Actual time needed to complete:  hours
+
 ### Logistical
 
 We have agreed that we will meet at the beginning of the lab time and at the end to discuss. Also to work together during those times.
