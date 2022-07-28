@@ -32,7 +32,6 @@ app.get('/books', (request, response) => {
   if (status){
     queryObject.status = status;
   }
-
   Book.find(queryObject)
     .then(bookData => {
       response.send(bookData);
@@ -64,8 +63,11 @@ app.post('/book', (request, response, next) => {
 app.delete('/book/:id', async (request, response, next) => {
   let id = request.params.id;
   try{
-    let book = await Book.deleteOne({_id: id});
-    response.send(book);
+    await Book.deleteOne({_id: id});
+    Book.find()
+    .then(bookData => {
+      response.send(bookData);
+    });
   } catch(e){
     next(e);
   }
@@ -79,7 +81,7 @@ app.put('/book/:id', async (request, response, next) => {
   }
   else{
     let id = request.params.id;
-    let newBook = await Book.findOneAndReplace(
+    await Book.findOneAndReplace(
       { _id: id },
       request.body,
       { returnDocument: 'after'}
@@ -108,15 +110,3 @@ app.use((error, request, response, next) => {
 
 
 app.listen(PORT, () => console.log(`listening on ${PORT}`));
-
-
-// const db = mongoose.connection;
-
-// db.on('error', console.error.bind(console, 'connection error:'));
-// db.once('open', function() {
-//   console.log('Mongoose is connected');
-
-// });
-
-// });
-
